@@ -5,17 +5,23 @@
 
 /* ========= VARIABLES ======== */
 :root {
-    --gradient-one: radial-gradient(circle, rgba(0,39,118,1) 0%, rgba(254,223,0,1) 54%, rgba(0,150,56,1) 100%);
+    --gradient-one: radial-gradient(circle, rgba(0, 39, 118, 1) 0%, rgba(254, 223, 0, 1) 54%, rgba(0, 150, 56, 1) 100%);
 }
+
 /* =========== FONTS ========== */
 @font-face {
     font-family: upper-title;
     src: url(../fonts/GUARALDO.ttf);
 }
+
 @font-face {
     font-family: txt-title;
     src: url(../fonts/Strawberry\ Blossom.ttf);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 142e4be9120db0509a8f5cc09be4b5147b08b5ab
 /* ============= GLOBAL =========== */
 .voyage3 article h2 {
     font-family: txt-title;
@@ -25,6 +31,7 @@
     padding: .3em 0;
     margin: 100px 30px;
 }
+
 .voyage3 p {
     font-family: 'Palatino', 'Tiems New Roman', serif;
     word-spacing: .3em;
@@ -33,6 +40,7 @@
     text-indent: 2em;
     margin: 0 5%;
     margin-bottom: 2em;
+<<<<<<< HEAD
 }
 .voyage3 ul {
     margin: 2% 5%;
@@ -95,8 +103,94 @@
 
 /* ============== SECTION SELECTOR============= */
 .voyage3 #rio-janeiro h1{
+=======
+}
+
+.voyage3>ul {
+    margin: 2% 5%;
+}
+
+.voyage3 ul li {
+    margin-bottom: .5em;
+}
+
+.voyage3 {
+    font-size: 1.5em;
+    background: darkseagreen;
+}
+
+#selector a:link,
+#selector a:visited,
+#selector a:active {
+>>>>>>> 142e4be9120db0509a8f5cc09be4b5147b08b5ab
+    color: white;
+}
+
+#selector a:hover {
+    text-decoration: underline;
+}
+
+#selector a {
+    text-transform: uppercase;
+    font-family: upper-title;
+    font-size: .9em;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+<<<<<<< HEAD
+=======
+}
+
+.voyage3 figcaption {
+    font-size: .8em;
+    font-style: italic;
+}
+
+.voyage3 iframe {
+    border: 0px;
+}
+
+/* ============== GENERIC =========*/
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.h-cent {
+    justify-content: center;
+}
+
+.v-cent {
+    align-items: center;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.txtcent {
+    text-align: center;
+}
+
+.name {
+    font-style: italic;
+}
+
+/* ============== SECTION SELECTOR============= */
+.voyage3 #rio-janeiro h1 {
     color: white;
     text-shadow: 2px 2px black;
+>>>>>>> 142e4be9120db0509a8f5cc09be4b5147b08b5ab
     font-family: upper-title;
     height: 300px;
     width: 100%;
@@ -107,14 +201,23 @@
     background-size: cover;
     border: .25em solid white;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 142e4be9120db0509a8f5cc09be4b5147b08b5ab
 #link-one {
     justify-content: space-evenly;
     margin: 2% 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 142e4be9120db0509a8f5cc09be4b5147b08b5ab
 #link-two {
     justify-content: space-evenly;
     margin: 2% 0;
 }
+
 .voyage3 #selector a {
     display: flex;
     align-items: center;
@@ -123,48 +226,82 @@
     width: 300px;
     border: 10px solid white;
 }
+<<<<<<< HEAD
 .voyage3 a:active, .voyage3 a:visited {
     text-decoration: none;
     color: black;
 }
+=======
+
+.voyage3 a:active,
+.voyage3 a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+>>>>>>> 142e4be9120db0509a8f5cc09be4b5147b08b5ab
 /* ============ BG-Links: selector ============= */
 #corcovado {
     background: center no-repeat url(../images/corcovado2.jpg);
     background-size: cover;
 }
+
 #pain {
     background: center no-repeat url(../images/pao.jpg);
     background-size: cover;
 }
+
 #copa {
     background: center no-repeat url(../images/copa2.jpg);
     background-size: cover;
 }
+
 #carnaval {
     background: center no-repeat url(../images/carnaval.jpg);
     background-size: cover;
 }
+
 #metro {
     background: center no-repeat url(../images/metro.jpg);
     background-size: cover;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 142e4be9120db0509a8f5cc09be4b5147b08b5ab
 /* ========== CORCOVADO ========== */
 .voyage3 #corcavado-media {
     width: 80%;
     margin: 50px auto;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 142e4be9120db0509a8f5cc09be4b5147b08b5ab
 /* ========== PAIN ============ */
 .voyage3 #pain-media {
     margin: 100px auto;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 142e4be9120db0509a8f5cc09be4b5147b08b5ab
 /* ========= CARNAVAL========== */
 .voyage3 #par-one {
     margin: 0;
     height: 90vh;
     background: center no-repeat url(../images/carnaval1.jpg);
+<<<<<<< HEAD
 	background-attachment: fixed;
 	background-size: cover;
 }
 .voyage3 #carnaval-media iframe{
+=======
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.voyage3 #carnaval-media iframe {
+>>>>>>> 142e4be9120db0509a8f5cc09be4b5147b08b5ab
     margin: 50px 0
 }
